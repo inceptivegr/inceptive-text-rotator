@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content" method="upgrade">
+	<name>Inceptive Text Rotator</name>
+	<author>Extend by Inceptive Design Labs</author>
+	<authorEmail>inceptive@inceptive.gr</authorEmail>
+	<authorUrl>http://extend.inceptive.gr</authorUrl>
+	<copyright>Copyright (C) 2013 Inceptive Design Labs. All Rights Reserved</copyright>
+	<creationDate>October, 2013</creationDate>
+	<license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>1.0</version>
+	<description><![CDATA[
+	    <div>
+		<p><strong>Thank you for installing <a href="http://extend.inceptive.gr/shop/joomla-extensions/inceptive-text-rotator/" title="Inceptive Text Rotator">Inceptive Text Rotator</a> by <a href="http://extend.inceptive.gr" title="Extend by Inceptive Design Labs">Extend by Inceptive Design Labs</a></strong></p>
+		<p>
+			<a href="http://extend.inceptive.gr/shop/joomla-extensions/inceptive-text-rotator/" title="Inceptive Text Rotator">Inceptive Text Rotator</a> by <a href="http://extend.inceptive.gr" title="Extend by Inceptive Design Labs">Extend by Inceptive Design Labs</a> is a Joomla plugin that by the use of a shortcode lets you add a super simple rotating text to your Joomla! website<br />
+		</p>
+		<p>
+			Based on the jQuery plugin <a href="https://github.com/peachananr/simple-text-rotator/" title="Super Simple Text Rotator">Super Simple Text Rotator</a> developed by <a href="http://www.thepetedesign.com/" title="Pete R.">Pete R.</a>. Originaly found <a href="https://github.com/peachananr/simple-text-rotator" title="plugin page on github">here</a>.
+		</p>
+		<p>
+			The shortcode functionality is heavily based on the shortcode functionality of the <a href="http://www.joomshaper.com/helix" title="Helix Framework">Helix Framework</a>. The plugin, actually includes a stripped version of the System Plugin that comes with the <a href="http://www.joomshaper.com/helix" title="Helix Framework">Helix Framework</a>.
+		</p>
+		<p>
+			Please be kind enough to review our plugins on <a href="https://extensions.joomla.org/extensions/owner/Inceptive-Design-Labs" title="">JED</a>!
+		</p>
+	    </div>]]></description>
+	<files>
+		<filename plugin="incptvtextrotator">incptvtextrotator.php</filename>
+		<folder>core</folder>
+		<folder>plugins</folder>
+		<folder>js</folder>
+		<folder>images</folder>
+		<folder>css</folder>
+		<folder>shortcodes</folder>
+		<folder>installation</folder>
+		<filename>index.html</filename>
+	</files>
+	
+	<config>
+		<fields name="params" >
+			<fieldset name="basic">
+				<field  name="animation" type="list" default="dissolve" label="Rotation animation" description="You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin">
+				    <option value="dissolve">dissolve</option>
+				    <option value="fade">fade</option>
+				    <option value="flip">flip</option>				    
+				    <option value="flipUp">flipUp</option>
+				    <option value="flipCube">flipCube</option>
+				    <option value="flipCubeUp">flipCubeUp</option>
+				    <option value="spin">spin</option>
+				</field>
+				<field  name="speed" type="list" default="2000" label="Rotation speed" description="How many milliseconds until the next word show.">
+				    <option value="500">500ms</option>
+				    <option value="1000">1000ms</option>
+				    <option value="1500">1500ms</option>				    
+				    <option value="2000">2000ms</option>
+				    <option value="2500">2500ms</option>
+				    <option value="3000">3000ms</option>
+				    <option value="3500">3500ms</option>
+				    <option value="4000">4000ms</option>
+				    <option value="4500">4500ms</option>
+				    <option value="5000">5000ms</option>
+				</field>
+			</fieldset>	
+		</fields>
+	</config>
+	<plugins>
+		<plugin plugin="incptvtextrotator" group="editors-xtd" />
+	</plugins>
+	<scriptfile>installation/script.incptvtextrotator.php</scriptfile>
+</extension>

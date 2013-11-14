@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="editors-xtd" method="upgrade">
+	<name>Inceptive Text Rotator Editor Button</name>
+	<author>Extend by Inceptive Design Labs</author>
+	<authorEmail>inceptive@inceptive.gr</authorEmail>
+	<authorUrl>http://extend.inceptive.gr</authorUrl>
+	<copyright>Copyright (C) 2013 Inceptive Design Labs. All Rights Reserved</copyright>
+	<creationDate>October, 2013</creationDate>
+	<license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>1.0</version>
+	<description><![CDATA[<div>
+		<p><strong>Thank you for installing <a href="http://extend.inceptive.gr/shop/joomla-extensions/inceptive-text-rotator/" title="Inceptive Text Rotator">Inceptive Text Rotator</a> by <a href="http://extend.inceptive.gr" title="Extend by Inceptive Design Labs">Extend by Inceptive Design Labs</a></strong></p>
+		<p>
+			<a href="http://extend.inceptive.gr/shop/joomla-extensions/inceptive-text-rotator/" title="Inceptive Text Rotator">Inceptive Text Rotator</a> by <a href="http://extend.inceptive.gr" title="Extend by Inceptive Design Labs">Extend by Inceptive Design Labs</a> is a Joomla plugin that by the use of a shortcode lets you add a super simple rotating text to your Joomla! website<br />
+		</p>
+		<p>
+			Based on the jQuery plugin <a href="https://github.com/peachananr/simple-text-rotator/" title="Super Simple Text Rotator">Super Simple Text Rotator</a> developed by <a href="http://www.thepetedesign.com/" title="Pete R.">Pete R.</a>. Originaly found <a href="https://github.com/peachananr/simple-text-rotator" title="plugin page on github">here</a>.
+		</p>
+		<p>
+			The shortcode functionality is heavily based on the shortcode functionality of the <a href="http://www.joomshaper.com/helix" title="Helix Framework">Helix Framework</a>. The plugin, actually includes a stripped version of the System Plugin that comes with the <a href="http://www.joomshaper.com/helix" title="Helix Framework">Helix Framework</a>.
+		</p>
+		<p>
+			Please be kind enough to review our plugins on <a href="https://extensions.joomla.org/extensions/owner/Inceptive-Design-Labs" title="">JED</a>!
+		</p>
+	    </div>]]></description>
+    <files>
+        <filename plugin="incptvtextrotator">incptvtextrotator.php</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+        <filename>index.html</filename>
+    </files>
+</extension>
